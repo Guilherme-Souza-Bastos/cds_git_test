@@ -3,6 +3,9 @@ def gather_data():
     n2 = int(input("Segundo Valor: "))
     return n1, n2
 
+def print_message(n1, n2):
+    print("Os valores {} e {} somados, dão: {}".format(n1, n2, n1+n2))
+    return None
 
 def main():
     n1, n2 = gather_data()
