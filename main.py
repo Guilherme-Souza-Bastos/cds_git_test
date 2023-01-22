@@ -1,5 +1,8 @@
+import test
+
 def get_operation():
     op = input("Operação: ")
+    return op
 
 def gather_data():
     n1 = input("Primeiro Valor: ")
